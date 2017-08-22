@@ -1,0 +1,106 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:background="@color/colorPrimaryDark"
+
+    tools:context="com.example.hamziii.boolawa.SignUpActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:weightSum="1"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+
+        <TextView
+            android:id="@+id/Logo_signUp"
+            android:text="Sign Up"
+            style="@style/txtView"
+            />
+
+        <EditText
+            android:id="@+id/editText_name"
+            style="@style/editText_style1"
+            android:layout_marginTop="50dp"
+            android:hint="Full Name"
+            android:inputType="textEmailAddress"
+
+            />
+
+        <EditText
+            android:id="@+id/editText_email"
+            style="@style/editText_style1"
+            android:layout_marginTop="10dp"
+            android:hint="Email or Phone Number"
+            android:inputType="text" />
+
+        <EditText
+            android:id="@+id/editText_password"
+            style="@style/editText_style1"
+            android:layout_marginTop="10dp"
+            android:hint="Password"
+            android:inputType="textPassword"
+            />
+
+
+        <EditText
+            android:id="@+id/editText_r_password"
+            style="@style/editText_style1"
+            android:layout_marginTop="10dp"
+            android:hint="Re-Type Password"
+            android:inputType="textPassword"
+            />
+
+
+        <Button
+            android:id="@+id/btn_register"
+            android:text="Register"
+            style="@style/login"
+            android:layout_marginTop="50dp"
+            />
+
+        <TextView
+            android:id="@+id/textView10"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="-15dp"
+            android:layout_marginTop="8dp"
+            android:text="Already Have an Account?"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/textView_gotoLogin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:layout_marginTop="20dp"
+            android:onClick="goToLoginActivity"
+            android:text="Sign in"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="20dp"
+            android:layout_gravity="center"
+            />
+
+
+    </LinearLayout>
+
+    </ScrollView>
+
+</RelativeLayout>

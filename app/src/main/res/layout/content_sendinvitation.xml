@@ -1,0 +1,54 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="16dp"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingTop="16dp"
+    android:background="@color/colorPrimaryDark"
+    tools:context="com.example.hamziii.boolawa.sendinvitation">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true">
+
+
+            <Button
+                android:id="@+id/through_physical"
+                style="@style/button_style"
+                android:text="through physical"
+                android:layout_gravity="bottom"
+                android:layout_marginTop="170dp"
+                />
+
+
+            <Button
+                android:id="@+id/through_fb"
+                style="@style/button_style"
+                android:text="through facebook"
+                android:layout_gravity="bottom"
+
+                />
+
+            <Button
+                android:id="@+id/through_mobile"
+                style="@style/button_style"
+                android:text="through mobile"
+                android:layout_gravity="bottom"
+                />
+
+
+        </LinearLayout>
+
+    </ScrollView>
+</RelativeLayout>

@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "748101943247",
+    "firebase_url": "https://boolawa-bbc5d.firebaseio.com",
+    "project_id": "boolawa-bbc5d",
+    "storage_bucket": "boolawa-bbc5d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:748101943247:android:20e44934a3e96ab6",
+        "android_client_info": {
+          "package_name": "com.example.hamziii.boolawa"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "748101943247-n2udug93in4g74or6khfvatfc5kpop3v.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.hamziii.boolawa",
+            "certificate_hash": "e37c7846cf09adb18227c0c50c8f3e6712d9d481"
+          }
+        },
+        {
+          "client_id": "748101943247-r0d892ihvrb2466t4f0qchpsdoil9bpd.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCofZy8cEx4IU_X0sztZfJdXnDND8ii-YU"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "748101943247-r0d892ihvrb2466t4f0qchpsdoil9bpd.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

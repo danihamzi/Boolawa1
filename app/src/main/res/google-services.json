@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "865894570092",
+    "project_id": "boolawa-176510"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:865894570092:android:20e44934a3e96ab6",
+        "android_client_info": {
+          "package_name": "com.example.hamziii.boolawa"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "865894570092-oka7hr00b65s26n6l9t15n00oaq0s96a.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "865894570092-3leni1k8vob0i647p2bu8vjjtgmiqj16.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.hamziii.boolawa",
+            "certificate_hash": "e37c7846cf09adb18227c0c50c8f3e6712d9d481"
+          }
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD8Pan4JpIt5UNkfVH-IYDwD9MRX-3eiKA"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 1
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

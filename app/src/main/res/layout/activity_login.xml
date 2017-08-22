@@ -1,0 +1,96 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:background="@color/colorPrimaryDark"
+
+    tools:context="com.example.hamziii.boolawa.LoginActivity">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:weightSum="1"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:scrollbarAlwaysDrawHorizontalTrack="true"
+        >
+
+
+        <TextView
+            android:id="@+id/Logo"
+            android:text="Login"
+            style="@style/txtView"
+            />
+
+        <EditText
+            android:id="@+id/editText_login_email"
+            style="@style/editText_style1"
+            android:layout_marginTop="50dp"
+            android:hint="Email/Phone"
+            android:inputType="textEmailAddress"
+
+            />
+
+        <EditText
+            style="@style/editText_style1"
+            android:id="@+id/editText_login_password"
+            android:inputType="textPassword"
+            android:layout_marginTop="10dp"
+            android:hint="Password"
+            />
+
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="-15dp"
+            android:layout_marginLeft="180dp"
+            android:layout_marginTop="8dp"
+            android:clickable="true"
+            android:text="Forgot Password?"
+            android:textColor="@color/white"
+            android:textSize="17dp"
+            android:onClick="goToPasswordResetActivity"
+            />
+
+        <Button
+            android:id="@+id/login_button111"
+            android:text="Login"
+            style="@style/login"
+            android:layout_marginTop="50dp"
+            />
+
+
+        <com.google.android.gms.common.SignInButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/gogleBtn"
+            >
+        </com.google.android.gms.common.SignInButton>
+
+
+
+        <com.facebook.login.widget.LoginButton
+            android:id="@+id/login_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="30dp"
+            android:layout_marginBottom="30dp" />
+    </LinearLayout>
+    </ScrollView>
+</RelativeLayout>
